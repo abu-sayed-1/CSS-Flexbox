@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+.flex-container {
+    height: 400px;
+    display: flex;
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column-reverse; */
+    /* flex-direction: column; */
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    background-color: whitesmoke;
+    align-items: center;
+}
+
+
+
+/* target the item =================================== */
+/* .item:nth-of-type(1) {
+    align-self: start;
+}
+
+.item:nth-of-type(2) {
+    align-self: center;
+}
+
+.item:nth-of-type(3) {
+    align-self: end;
+} */
+
+
+
+/* reverse the item using order ============================= */
+/* .item:nth-of-type(1) {
+    order: 2
+}
+
+.item:nth-of-type(2) {
+    order: 1
+}
+
+.item:nth-of-type(3) {
+    order: 3
+} */
+
+
+
+
+/* give specifies width using flex-grow ============================= */
+/* .item:nth-of-type(1) {
+
+    flex-grow: 1;
+}
+
+.item:nth-of-type(2) {
+
+    flex-grow: 2;
+    flex-basis: 200px
+}
+
+.item:nth-of-type(3) {
+    flex-grow: 1
+} */
+
+
+/* flex-shrink ============================= */
+/* .item:nth-of-type(1) {
+
+    flex-shrink: 1;
+}
+
+.item:nth-of-type(2) {
+
+    flex-shrink: 2;
+
+}
+
+.item:nth-of-type(3) {
+    flex-shrink: 3
+} */
+
+
+.item {
+    /* flex-basis: 200px; */
+    /* flex-grow: 1; */
+    /* flex: 1 0 100px; */
+    /* ^^^^^^^^^^ flex-grow/ flew-shrink/ flex-basis */
+    flex: 1;
+    height: 100px;
+    margin: 10px;
+    color: white;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
